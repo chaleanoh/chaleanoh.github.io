@@ -94,13 +94,8 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
 }
 
@@ -156,6 +151,7 @@ pre {
  * Wrapper
  */
 .wrapper {
+    text-align: center;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
