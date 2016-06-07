@@ -7,13 +7,12 @@
 
 # Site settings
 title: chaleanoh
-email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  On the off chance that you wanted to learn how to pronounce "Chellino," now 
+  you know. And you can also look through Nicole M. Chellino's professional portfolio. 
+  Here are a few of my projects, creativity, and hopefully a dash of professionalism - hopefully.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://chaleanoh.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 
 # Build settings

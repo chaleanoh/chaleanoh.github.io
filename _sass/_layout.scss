@@ -169,11 +169,17 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 2*$spacing-unit 0;
 }
 
 .page-heading {
     font-size: 20px;
+}
+
+.post {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 2 * $spacing-unit;
 }
 
 .post-list {
@@ -197,7 +203,20 @@
 
 
 /** stuff we added */
-$nav-link-size: 20px;
+
+.header-image {
+  padding-bottom: 20px;
+}
+
+.header-text {
+  margin-bottom: 40px;
+}
+
+.subheader-text {
+  margin-bottom: $spacing-unit;
+}
+
+$nav-link-size: 30px;
                    
 .nav-links {
   a {
@@ -210,7 +229,15 @@ $nav-link-size: 20px;
     &:hover {
       background-color: $text-color;
     }
+
+    &:not(:last-child) {
+      margin-right: 60px;
+    }
   }
+}
+
+.home-link {
+  color: $text-color;
 }
 
 .social-links {
@@ -233,17 +260,25 @@ $nav-link-size: 20px;
 }
 
 .post-title {
-    font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 42px;
     }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
+    margin-left: 50px;
+    text-align: left;
+    font-size: $base-font-size * 1.5;
+    color: lighten($text-color, 25%);
+
+    .yoga-content { 
+        font-size: $base-font-size;
+    }
+
 
     h2 {
         font-size: 32px;
@@ -267,5 +302,12 @@ $nav-link-size: 20px;
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+/*** design isht */
+.design-images {
+    img {
+        margin-bottom: $spacing-unit * 2;
     }
 }
